@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: #EBF6EF;
+    font-family: 'Oxygen', sans-serif;   
+}
+
+h1 { 
+    font-family: 'Lora', sans-serif;
+    color:#fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:20px;
+    line-height: .75;
+}
+
+h2 { 
+    font-family: 'Lora', sans-serif;
+    color:#006080;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: .75;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #0378B3;
+    border-radius:0;
+}
+
+.navbar-brand {       
+    padding-left: 0;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+
+/** END OF HEADER **/
+
+/** DROPDOWN MENU **/
+#nav-list {
+  margin-top: 0;
+  margin-bottom:0;
+  background-color: #804000; 
+}
+#nav-list a { 
+  color: #ffffff;
+  background: #7B8D72;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #0378B3;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+/** END OF DROPDOWN MENU **/
+
+/** MAIN CONTENT **/
+section div {
+    margin-top: 20px;
+    width: 97%;
+    padding: 10px;
+    background-color: #CCE8F6
+}
+
+#title {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px;
+}
+/** END OF MAIN CONTENT **/
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.navbar-brand h1 {font-size: 2em;}
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.5em; }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) { 
+.navbar-brand h1 {font-size: 1.8em;}
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) { 
+.navbar-brand h1 {font-size: 1.5em;}
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) { 
+.navbar-brand h1 {font-size: 1.5em;} 
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+}
